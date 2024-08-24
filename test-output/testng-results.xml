@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-24T10:51:49 IST" name="Default suite" finished-at="2024-08-24T10:51:53 IST" duration-ms="3676">
+  <suite started-at="2024-08-24T16:09:20 IST" name="Suite" finished-at="2024-08-24T16:09:31 IST" duration-ms="10117">
     <groups>
     </groups>
-    <test started-at="2024-08-24T10:51:49 IST" name="Default test" finished-at="2024-08-24T10:51:53 IST" duration-ms="3676">
-      <class name="Demo.chuma">
-        <test-method signature="trial()[pri:0, instance:Demo.chuma@683dbc2c]" started-at="2024-08-24T10:51:49 IST" name="trial" finished-at="2024-08-24T10:51:53 IST" duration-ms="3622" status="PASS">
+    <test started-at="2024-08-24T16:09:20 IST" name="Test" finished-at="2024-08-24T16:09:31 IST" duration-ms="10117">
+      <class name="Demo.LaunchBrowserTest">
+        <test-method signature="demoTest()[pri:0, instance:Demo.LaunchBrowserTest@623a8092]" started-at="2024-08-24T16:09:21 IST" name="demoTest" finished-at="2024-08-24T16:09:31 IST" duration-ms="10035" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- trial -->
-      </class> <!-- Demo.chuma -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- demoTest -->
+      </class> <!-- Demo.LaunchBrowserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
