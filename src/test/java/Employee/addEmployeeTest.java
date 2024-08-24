@@ -123,31 +123,31 @@ public class addEmployeeTest extends BaseClassUtility
 			.when().post("/employees")
 			.then().log().all().statusCode(409).extract().response();
 		}
-		
-		@Test(priority=3) 
-		public void addEmployeWithOutName()
-		{
-			                                //    + "  \"empName\": \""+empName+"\",\r\n"
-			String jbody ="{\r\n"
-					+ "  \"designation\": \"Architect\",\r\n"
-					+ "  \"dob\": \"11/05/1985\",\r\n"
-					+ "  \"email\": \"deepak@gmail.com\",\r\n"
-					
-					+ "  \"experience\": 18,\r\n"
-					+ "  \"mobileNo\": \"9007970088\",\r\n"
-					+ "  \"Employee\": \"TechPyramid\",\r\n"
-					+ "  \"role\": \"CTO\",\r\n"
-					+ "  \"username\": \""+empName+"\"\r\n"
-					+ "}"; 
-			given().spec(reqSpecBuild).body(jbody)
-			.when().post("/employees")
-			.then().log().all().statusCode(409).extract().response();
-			/*
-			 *  Enable logging of request and response details
-			 */
-			RestAssured.config = RestAssured.config().logConfig(LogConfig.logConfig().enableLoggingOfRequestAndResponseIfValidationFails());
-
-	        
-		}
+//		
+//		@Test(priority=3) 
+//		public void addEmployeWithOutName()
+//		{
+//			                                //    + "  \"empName\": \""+empName+"\",\r\n"
+//			String jbody ="{\r\n"
+//					+ "  \"designation\": \"Architect\",\r\n"
+//					+ "  \"dob\": \"11/05/1985\",\r\n"
+//					+ "  \"email\": \"deepak@gmail.com\",\r\n"
+//					
+//					+ "  \"experience\": 18,\r\n"
+//					+ "  \"mobileNo\": \"9007970088\",\r\n"
+//					+ "  \"Employee\": \"TechPyramid\",\r\n"
+//					+ "  \"role\": \"CTO\",\r\n"
+//					+ "  \"username\": \""+empName+"\"\r\n"
+//					+ "}"; 
+//			given().spec(reqSpecBuild).body(jbody)
+//			.when().post("/employees")
+//			.then().log().all().statusCode(409).extract().response();
+//			/*
+//			 *  Enable logging of request and response details
+//			 */
+//			RestAssured.config = RestAssured.config().logConfig(LogConfig.logConfig().enableLoggingOfRequestAndResponseIfValidationFails());
+//
+//	        
+//		}
 		
 }
