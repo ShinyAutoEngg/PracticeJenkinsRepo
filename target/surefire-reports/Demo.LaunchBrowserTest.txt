@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: TestSuite
+Test set: Demo.LaunchBrowserTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.837 sec - in TestSuite
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.17 s -- in Demo.LaunchBrowserTest
